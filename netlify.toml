@@ -1,0 +1,6 @@
+[build]
+  # The app lives at the repository root
+  base = "."
+  # Install dependencies from the lockfile first so `next` is available
+  command = "npm ci && npm run build"
+  publish = ".next"
